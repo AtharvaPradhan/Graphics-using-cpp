@@ -4,7 +4,7 @@ int main()
 {
     int gd = DETECT,gm;
     initgraph(&gd,&gm,"C:\\TurboC3\\BGI");
-    arc(260,260,0,360,120);
+    arc(260,260,0,360,120);                 // x axis, y axis, starting degree, ending degree, size in diameter
     arc(100,220,5,320,50);
     arc(410,220,235,155,50);
     arc(180,380,109,360,50);
